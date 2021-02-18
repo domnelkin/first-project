@@ -139,3 +139,36 @@ for (let i = 1; i < 8; i++)  {
     }
     console.log(i);
 } */
+  
+// функция - один из спопобов оптимизации кода
+
+/* let num = 30;
+
+//локальная переменная. потому что существует только в функции
+//можно использовать глобальную переменную в функции  num = 20
+function messageOne (text)  {
+     console.log(text);
+     let num = 20; 
+     console.log(num);
+}
+messageOne('Hello World!');
+console.log(num);
+
+function calc(a, b)  {
+     return (a + b);
+}
+
+console.log(calc(9, 2));
+console.log(calc(7, 5));
+console.log(calc(34, 89));
+
+const logger = function() {
+    console.log('Hello!');
+};
+logger(); 
+
+const calc = (a, b) => {
+    console.log('1');
+    return a + b; 
+} */
+
